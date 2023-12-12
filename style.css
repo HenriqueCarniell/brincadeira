@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#container {
+    width: 50%;
+    height: 50vh; /* Ajuste esta altura conforme necessário */
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 10px;
+}
+#div-count {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+#count {
+    font-size: 100px;
+}
+#div-btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
